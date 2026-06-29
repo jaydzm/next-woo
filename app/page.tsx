@@ -28,10 +28,7 @@ export default function Home() {
             <h1>口感快车茶叶</h1>
 
             <p>
-              This is <a href="https://github.com/9d8dev/next-woo">next-woo</a>, a
-              headless WooCommerce storefront built with Next.js 16, React 19,
-              and TypeScript. It features a complete e-commerce experience with
-              products, cart, checkout, and customer accounts. Built with{" "}
+             极致天然纯洁的茶叶
              
             </p>
           </Prose>

@@ -1,9 +1,9 @@
 // Define the menu items
 export const mainMenu = {
-  home: "/",
-  shop: "/shop",
-  blog: "/posts",
-  关于: "https://github.com/9d8dev/next-wp",
+  主页: "/",
+  店铺: "/shop",
+  博客: "/posts",
+  关于: "/about",
 };
 
 export const contentMenu = {

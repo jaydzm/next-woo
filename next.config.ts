@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const wordpressHostname =
-  process.env.WORDPRESS_HOSTNAME || "us1.wpdemo.org";
+  process.env.WORDPRESS_HOSTNAME || "www.toppuer.top";
 const wordpressUrl = process.env.WORDPRESS_URL;
 
 const nextConfig: NextConfig = {

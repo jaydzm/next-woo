@@ -25,7 +25,7 @@ export default function Home() {
       <Container>
         <main className="space-y-6">
           <Prose>
-            <h1>Headless WooCommerce with Next.js</h1>
+            <h1>口感快车茶叶</h1>
 
             <p>
               This is <a href="https://github.com/9d8dev/next-woo">next-woo</a>, a

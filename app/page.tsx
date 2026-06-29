@@ -32,8 +32,7 @@ export default function Home() {
               headless WooCommerce storefront built with Next.js 16, React 19,
               and TypeScript. It features a complete e-commerce experience with
               products, cart, checkout, and customer accounts. Built with{" "}
-              <a href="https://ui.shadcn.com">shadcn/ui</a>,{" "}
-              <a href="https://craft-ds.com">craft-ds</a>, and Tailwind CSS.
+             
             </p>
           </Prose>
 

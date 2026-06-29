@@ -10,7 +10,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: WORDPRESS_HOSTNAME,
+        hostname: toppuer.top,
         port: "",
         pathname: "/**",
       },

@@ -5,7 +5,7 @@ type SiteConfig = {
 };
 
 export const siteConfig: SiteConfig = {
-  site_name: "next-woo",
-  site_description: "Headless WooCommerce store powered by Next.js",
-  site_domain: "https://next-woo.com",
+  site_name: "口感快车",
+  site_description: "纯天然茶叶",
+  site_domain: "https://www.toppuer.top/",
 };

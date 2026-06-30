@@ -35,50 +35,6 @@ export default function Home() {
 
 
 
-         {/* 产品列表Product Grid */}
-            <div className="space-y-8">
-              <ProductGrid products={products} columns={3} />
-
-              {totalPages > 1 && (
-                <div className="flex justify-center items-center py-8">
-                  <Pagination>
-                    <PaginationContent>
-                      {page > 1 && (
-                        <PaginationItem>
-                          <PaginationPrevious
-                            href={createPaginationUrl(page - 1)}
-                          />
-                        </PaginationItem>
-                      )}
-
-                      {Array.from({ length: totalPages }, (_, i) => i + 1)
-                        .filter((pageNum) => {
-                          return (
-                            pageNum === 1 ||
-                            pageNum === totalPages ||
-                            Math.abs(pageNum - page) <= 1
-                          );
-                        })
-                        .map((pageNum, index, array) => {
-                          const showEllipsis =
-                            index > 0 && pageNum - array[index - 1] > 1;
-                          return (
-                            <div key={pageNum} className="flex items-center">
-                              {showEllipsis && <span className="px-2">...</span>}
-                              <PaginationItem>
-                                <PaginationLink
-                                  href={createPaginationUrl(pageNum)}
-                                  isActive={pageNum === page}
-                                >
-                                  {pageNum}
-                                </PaginationLink>
-                              </PaginationItem>
-                            </div>
-                          );
-                        })}
-
-
-
 
 
 

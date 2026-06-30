@@ -7,13 +7,13 @@ export const mainMenu = {
 };
 
 export const contentMenu = {
-  categories: "/posts/categories",
-  tags: "/posts/tags",
-  authors: "/posts/authors",
+  分类: "/posts/categories",
+  标签: "/posts/tags",
+  作者: "/posts/authors",
 };
 
 export const shopMenu = {
-  products: "/shop",
-  cart: "/cart",
-  account: "/account",
+  产品: "/shop",
+  购物车: "/cart",
+  账号: "/account",
 };
